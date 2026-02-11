@@ -21,16 +21,16 @@ git clone git@github.com:Zeyln/ZeylnsGameLib.git
 ```Nodemon ``` (Recommended)
 
 
-Hosting your API with this tool requires that you have Node.js installed.  <br>  You can do this by following the steps on the website:
+Hosting your API with this tool requires that you have Node.js installed. <br> You can do this by following the steps on the website:
 **https://nodejs.org/en/download**
 
 After installing Node.js, while in your project directory run this in your terminal:
 ```
 npm install cors --save
 ```
-Installing express:
+Installing express (same directory):
 ```
-npm install express
+npm install express --save
 ```
 
 Nodemon install script (same directory):
