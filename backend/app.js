@@ -12,7 +12,8 @@ app.use(
   })
 );
 
-app.get("/CHANGE THIS TO YOUR HOME DESTINATION", (req, res) => {
+app.get("/home", (req, res) => { // you can change your endpoint to whatever you want, just make sure to change the URL you access in the browser to match it.
+                                 // this applies to all endpoints in this file.
   res.send("Hello, <your name here>!");
 });
 
